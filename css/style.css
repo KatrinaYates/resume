@@ -172,7 +172,7 @@ nav li a:hover {
 	Hero section
 -----------------------*/
 #heroSection {
-	background-image: url('img/bg1.jpeg');
+	background-image: url("img/bg1.jpeg");
 	display: flex;
 	height: 100vh;
 	background-position: center;
