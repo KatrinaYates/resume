@@ -258,9 +258,29 @@ nav li a:hover {
 }
 
 /*---------------------
+	Portfolio section
+-----------------------*/
+#portfolioSection {
+	padding-bottom: 12vw;
+	text-align: center;
+}
+
+.portfolioItem {
+	flex-basis: auto;
+	width: 23%;
+	height: auto;
+}
+
+.projectButton {
+	margin: 30px 0 15px 0;
+}
+
+/*---------------------
      Skills section
 -----------------------*/
 #skillsSection {
+	background-color: #333;
+	color: white;
 	padding-bottom: 12vw;
 }
 
@@ -291,12 +311,12 @@ nav li a:hover {
 Education / Work section
 ----------------------*/
 #educationSection {
-	background-color: #333;
-	color: white;
 	padding-bottom: 12vw;
 }
 
 #workSection {
+	background-color: #333;
+	color: white;
 	padding-bottom: 60px;
 }
 
@@ -340,25 +360,6 @@ Education / Work section
 	box-shadow: 5px 5px 9px 0px #333;
 }
 
-/*---------------------
-	Portfolio section
------------------------*/
-#portfolioSection {
-	background-color: #333;
-	color: white;
-	padding-bottom: 12vw;
-	text-align: center;
-}
-
-.portfolioItem {
-	flex-basis: auto;
-	width: 23%;
-	height: auto;
-}
-
-.projectButton {
-	margin: 30px 0 15px 0;
-}
 
 /*---------------------
 	Footer section
