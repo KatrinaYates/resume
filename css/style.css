@@ -234,7 +234,8 @@ nav li a:hover {
 
 .aboutImage {
 	float: left;
-	width: 50%;
+	margin-left: 30px;
+	width: 30%;
 }
 
 .aboutImage img {
@@ -244,7 +245,7 @@ nav li a:hover {
 
 .aboutText {
 	float: right;
-	width: 50%;
+	width: 75%;
 	text-align: center;
 	padding: 30px;
 }
