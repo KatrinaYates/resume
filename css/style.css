@@ -367,16 +367,18 @@ Education / Work section
 	left: -118px;
 }
 
-.educationImage,
+.diploma,
 .workImage {
 	float: right;
 	width: 30%;
+	margin-right: 5%;
 }
 
+.aboutImageMobile,
+.diplomaMobile,
 .workImageMobile {
 	display: none;
 	width: 80%;
-	border-radius: 50%;
 	margin: 0 auto 30px auto;
 	box-shadow: 5px 5px 9px 0px #333;
 }
@@ -404,16 +406,19 @@ footer {
 		width: 90%;
 	}
 
-	.educationImage,
+	.diploma,
 	.workImage {
 		display: none;
 	}
 
+	.diplomaMobile,
 	.workImageMobile {
 		display: block;
 	}
+
 	.portfolioItem {
-		width: 15em;
+		width: 80%;
+		margin-bottom: 30px;
 	}
 }
 
@@ -429,6 +434,10 @@ footer {
 
 	.aboutImage {
 		display: none;
+	}
+
+	.aboutImageMobile {
+		display: block;
 	}
 
 	.aboutText {
