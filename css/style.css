@@ -370,7 +370,8 @@ Education / Work section
 .diploma,
 .workImage {
   float: right;
-  height: 100%;
+  width: 30%;
+  height: auto;
   object-fit: contain;
 }
 
